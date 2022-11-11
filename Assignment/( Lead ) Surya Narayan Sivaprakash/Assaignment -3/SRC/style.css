@@ -1,0 +1,23 @@
+body {
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+img {
+    height: 240px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+div{
+
+    background-color: #dcdcdc;
+    width: 40%;
+    margin: 50px;
+    
+    }

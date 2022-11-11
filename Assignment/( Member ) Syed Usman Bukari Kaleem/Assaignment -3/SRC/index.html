@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Fashion Recommender </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Welcome To Smart Fashion</h1>
+    <br>
+    <div>
+        <img src="https://shoppingimages.s3.eu-gb.cloud-object-storage.appdomain.cloud/alicia-petresc-BciCcl8tjVU-unsplash.jpg"
+            alt="Dress" srcset="">
+        <img src="https://shoppingimages.s3.eu-gb.cloud-object-storage.appdomain.cloud/ian-dooley-TT-ROxWj9nA-unsplash.jpg"
+            alt="Dress" srcset="">
+        <img src="https://shoppingimages.s3.eu-gb.cloud-object-storage.appdomain.cloud/nikhil-uttam-QrOdhsMAQw8-unsplash.jpg"
+            alt="Dress" srcset="">
+        <img src="https://shoppingimages.s3.eu-gb.cloud-object-storage.appdomain.cloud/sahil-moosa-m1MRYp556Ew-unsplash.jpg"
+            alt="Dress" srcset="">&nbsp;&nbsp;
+        <img src="https://shoppingimages.s3.eu-gb.cloud-object-storage.appdomain.cloud/victoria-priessnitz-UR-0lB0sDTA-unsplash.jpg"
+            alt="Dress" srcset="">
+    </div>
+    
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "0850367d-4c3c-4131-b1ee-627f773ba47d", // The ID of this integration.
+          region: "eu-gb", // The region your integration is hosted in.
+          serviceInstanceID: "efda1f12-ea7a-48aa-9c7e-02e5c36e9735", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+
+</html>

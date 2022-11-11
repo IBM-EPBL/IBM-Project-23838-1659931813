@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Sign Up </title>
+</head>
+
+<body>
+
+    <form method="post" action="login">
+        <h1>Sign Up</h1>
+        <br>
+        <br>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name " name="name" placeholder="Enter your name here" required minlength="2">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="Enter your email here" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone number</label>
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter your phone number here" required minlength="10" maxlength="10">
+        </div>
+        <br>
+        <br>
+        <button style="background-color: white; border-color: #dcdcdc; color: black;" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</body>
+
+</html>
