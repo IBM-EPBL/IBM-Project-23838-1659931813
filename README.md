@@ -83,3 +83,5 @@ The user will login into the website and go through the products available on th
 
 
 # Technology Architecture
+
+![architecture](https://user-images.githubusercontent.com/97951280/188361430-a377d0ce-1fbe-429a-9d4d-0309a9c2b977.png)
