@@ -1,6 +1,8 @@
 
 # IBM-Project-23838-1659931813
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"  align="center" alt="drawing" width="200" />
+
 # Smart Fashion Recommender Application
 
 ## Category: Cloud App Development
